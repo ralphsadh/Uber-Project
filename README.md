@@ -1,2 +1,6 @@
-# Uber-Project
-Power BI Dashboard
+# Uber Trips Analysis Dashboard
+This Power BI project analyzes Uber trip data in the U.S. FOR June 2024 to identify booking trends, trip patterns, payment behavior, and location-based insights. The dashboard covers multiple dimensions such as trip type (day/night), vehicle preference, and peak booking periods, enabling a clear understanding of user behavior and operational flow.
+
+The insights help in demand forecasting, driver allocation, and pricing optimization by revealing when and where rides are most frequent, which vehicle types are preferred, and how payment methods vary. It supports strategic planning by highlighting high-traffic zones and time-specific demand surges.
+
+The dashboard was built entirely in Power BI Desktop using key DAX functions like TOPN, SUMMARIZE, SELECTEDVALUE, LOOKUPVALUE for relational mapping, CONCATENATEX and FORMAT for cleaner labels, and USERELATIONSHIP to toggle inactive relationships (e.g., switching between pickup and drop-off data). Features like New Parameters for creating slicers that helped in creation of dynamic Y axis in line charts and values in donut charts, slicers for city/date/vehicle, drill-through to detailed trip records, conditional formatting, and interactive bookmarks enhance the dashboard's flexibility and user experience were also used.
